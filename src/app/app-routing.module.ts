@@ -13,7 +13,7 @@ const routes: Routes = [
   {path: 'menu', component:MenuComponent},
   {path: 'Inicio', component:InicioComponent},
   {path: 'Mascotas', component:MascotasComponent},
-  {path: 'Iniciar_Sesion', component:SesionComponent},
+  {path: 'Sesion', component:SesionComponent},
   {path: 'Crear_Cuenta', component:CrearComponent},
   {path: 'Recuperar_Cuenta', component:ReinicioComponent}
 ];
