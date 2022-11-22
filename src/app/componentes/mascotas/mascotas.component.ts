@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SesionComponent } from '../sesion/sesion.component';
 
 @Component({
   selector: 'app-mascotas',
@@ -11,5 +12,8 @@ export class MascotasComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
+
 
 }
