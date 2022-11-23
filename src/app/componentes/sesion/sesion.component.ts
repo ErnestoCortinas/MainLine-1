@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-sesion',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SesionComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private location: Location
+  ) { }
 
   ngOnInit(): void {
   }
 
+  goback():void{
+  this.location.back();
+  }
+  
 }

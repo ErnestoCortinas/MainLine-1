@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './componentes/inicio/inicio.component';
 import { SesionComponent } from './componentes/sesion/sesion.component';
-import { MascotasComponent } from './componentes/mascotas/mascotas.component';
+import { RutasComponent } from './componentes/Rutas/Rutas.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { ReinicioComponent } from './componentes/reinicio/reinicio.component';
 import { CrearComponent } from './componentes/crear/crear.component';
@@ -15,7 +15,7 @@ import { CrearComponent } from './componentes/crear/crear.component';
     AppComponent,
     InicioComponent,
     SesionComponent,
-    MascotasComponent,
+    RutasComponent,
     MenuComponent,
     ReinicioComponent,
     CrearComponent
