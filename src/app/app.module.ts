@@ -9,6 +9,7 @@ import { RutasComponent } from './componentes/Rutas/Rutas.component';
 import { MenuComponent } from './componentes/menu/menu.component';
 import { ReinicioComponent } from './componentes/reinicio/reinicio.component';
 import { CrearComponent } from './componentes/crear/crear.component';
+import { AcercaComponent } from './componentes/acerca/acerca.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CrearComponent } from './componentes/crear/crear.component';
     RutasComponent,
     MenuComponent,
     ReinicioComponent,
-    CrearComponent
+    CrearComponent,
+    AcercaComponent
   ],
   imports: [
     BrowserModule,
